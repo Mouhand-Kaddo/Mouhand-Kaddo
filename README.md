@@ -2,6 +2,10 @@
 
 Software engineer in the UAE. I build LLM agents, the tooling around them, and the full-stack apps they live in. Mostly Python and TypeScript.
 
+## Smallwright
+
+[Smallwright](https://github.com/Mouhand-Kaddo/smallwright) is an Android app that builds Android apps on the phone. You describe an app in a chat, a cloud model writes the Java and XML, and the phone compiles it with ECJ, D8 and AAPT2, signs it and installs it. The compiler runs in a separate worker app with no Internet permission, and each project gets its own signing key. [v0.1.0](https://github.com/Mouhand-Kaddo/smallwright/releases/tag/v0.1.0) passed 19 of a fixed set of 20 app requests on a Galaxy A33.
+
 ## lecode
 
 [lecode](https://github.com/KalvadTech/lecode) is a minimalist terminal AI coding agent (OpenRouter / OpenAI-compatible models, real permissions, live cost tracking, inspectable JSONL sessions). I've merged 17 PRs into it, including:
