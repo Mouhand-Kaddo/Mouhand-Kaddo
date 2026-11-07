@@ -1,30 +1,18 @@
-# Hi, I'm Mouhand
+# Mouhand Kaddo
 
-Software engineer in the UAE. I build LLM agents, the tooling around them, and the full-stack apps they live in. Mostly Python and TypeScript.
+Software engineer in the UAE. Python and TypeScript, mostly backend: LLM agents and the apps around them.
 
-## Smallwright
+## Projects
 
-[Smallwright](https://github.com/Mouhand-Kaddo/smallwright) is an Android app that builds Android apps on the phone. You describe an app in a chat, a cloud model writes the Java and XML, and the phone compiles it with ECJ, D8 and AAPT2, signs it and installs it. The compiler runs in a separate worker app with no Internet permission, and each project gets its own signing key. [v0.1.0](https://github.com/Mouhand-Kaddo/smallwright/releases/tag/v0.1.0) passed 19 of a fixed set of 20 app requests on a Galaxy A33.
+- [smallwright](https://github.com/Mouhand-Kaddo/smallwright): an Android app that builds Android apps on the phone from a chat
+- [uae-labour-eval](https://github.com/Mouhand-Kaddo/uae-labour-eval): eval harness for a bilingual English/Arabic LLM agent
+- [skills](https://github.com/Mouhand-Kaddo/skills): agent skills for Android device testing and stacked PRs
 
-## lecode
+## Open source
 
-[lecode](https://github.com/KalvadTech/lecode) is a minimalist terminal AI coding agent (OpenRouter / OpenAI-compatible models, real permissions, live cost tracking, inspectable JSONL sessions). I've merged 17 PRs into it, including:
-
-- [#4](https://github.com/KalvadTech/lecode/pull/4) OAuth 2.1 for streamable-HTTP MCP servers (`/mcp auth`)
-- [#13](https://github.com/KalvadTech/lecode/pull/13) Durable memory and natural preference learning
-- [#14](https://github.com/KalvadTech/lecode/pull/14) Persistent worker supervision
-- [#25](https://github.com/KalvadTech/lecode/pull/25) Cost and timeout limits for headless runs
-- [#26](https://github.com/KalvadTech/lecode/pull/26) JSON output for noninteractive runs
-- [#11](https://github.com/KalvadTech/lecode/pull/11) herdr integration
-
-## Elsewhere
-
-- **[AnyPS5](https://github.com/boykopovar/AnyPS5)** (PS5 executable porting to Linux/Windows): merged sequential `libSceZlib` decompression ([#1824](https://github.com/boykopovar/AnyPS5/pull/1824)), 48 kHz `libSceOpusDec` ([#1823](https://github.com/boykopovar/AnyPS5/pull/1823)), `gethostbyname` ([#1796](https://github.com/boykopovar/AnyPS5/pull/1796)), and shader/AGC fixes for Demon's Souls ([#4018](https://github.com/boykopovar/AnyPS5/pull/4018), [#4049](https://github.com/boykopovar/AnyPS5/pull/4049), [#4456](https://github.com/boykopovar/AnyPS5/pull/4456)).
-- **[gridcraft](https://github.com/storytold/gridcraft)** (spreadsheet in pure Rust): open PRs adding Arabic and right-to-left support: shaping and direction in PDF export, bidi display and editing, glyph fallback, word-navigation crash fixes.
-- **[skills](https://github.com/Mouhand-Kaddo/skills)**: agent skills for real Android device testing over ADB, and stacked PRs.
+- [lecode](https://github.com/KalvadTech/lecode): 17 merged PRs to a terminal coding agent (MCP OAuth, memory, worker supervision)
+- [gridcraft](https://github.com/storytold/gridcraft): Arabic and right-to-left support
 
 ## Stack
 
-Python (Django, Django Ninja, FastAPI), TypeScript (React, Preact, Node.js), PostgreSQL, Celery/Dramatiq/RabbitMQ, MCP, LLM APIs, Playwright, Docker, Linux.
-
-Arabic and English.
+Python, Django, FastAPI, TypeScript, React, Node.js, PostgreSQL, Docker, Linux.
